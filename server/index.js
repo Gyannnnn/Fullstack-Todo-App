@@ -7,7 +7,7 @@ const TodoModel = require('./models/todos');
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb://127.0.0.1:27017/todoapp", {
+mongoose.connect("mongodb+srv://higyanaranjanpatra:X2u25J89nT27KUhq@cluster0.o6iabhd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })

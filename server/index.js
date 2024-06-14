@@ -5,7 +5,13 @@ const app = express();
 const TodoModel = require('./models/todos');
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://mern-stack-todoapp.vercel.app/"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+));
 
 mongoose.connect("mongodb+srv://higyanaranjanpatra:X2u25J89nT27KUhq@cluster0.o6iabhd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,

@@ -6,9 +6,9 @@ const TodoModel = require('./models/todos');
 
 app.use(express.json());
 app.use(cors({
-    origin: ["https://mern-stack-todoapp.vercel.app"],
-    methods: ["POST", "GET", "DELETE"], // Include DELETE method if you have delete endpoint
-    credentials: true // Allow credentials (cookies, authorization headers, etc.)
+    origin: ["https://mern-stack-todoapp.vercel.app/"],
+    methods: ["POST", "GET", "DELETE"], 
+    credentials: true 
 }));
 
 

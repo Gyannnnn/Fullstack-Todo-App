@@ -7,7 +7,7 @@ const Create = () => {
 
   const handleAdd = () => {
     if(desc === ''||task==='') alert("Both feild Is required")
-      else axios.post('https://todo-app-api-two.vercel.app/add', { task, desc })
+      else axios.post('https://todo-app-api-two.vercel.app/add/', { task, desc })
     .then(result => {
       console.log(result);
       setTask('');  // Clear the task input field

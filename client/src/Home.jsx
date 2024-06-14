@@ -8,7 +8,7 @@ const Home = () => {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
-    axios.get("https://todo-app-api-two.vercel.app/get")
+    axios.get("https://todo-app-api-two.vercel.app/get/")
       .then(result => setTodos(result.data))
       .catch(err => console.log(err));
   }); 

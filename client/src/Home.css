@@ -1,0 +1,10 @@
+.home{
+    min-height: 100vh;
+    width: 100vw;
+    background: #18181b;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}

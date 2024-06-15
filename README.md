@@ -1,5 +1,5 @@
 # MERN Stack Todo App
-## Deployed Link: [vercel](https://mern-stack-todoapp.vercel.app/)
+## Deployed Link: [Vercel](https://mern-stack-todoapp.vercel.app/)
 ## Overview
 The MERN Stack Todo App is a web application designed to help users manage their tasks effectively. Built using the popular MERN stack (MongoDB, Express.js, React.js, Node.js), this app provides a seamless and responsive user experience for task management.
 

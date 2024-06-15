@@ -17,15 +17,18 @@ app.use(cors({
 //   allowedHeaders: 'Content-Type,Authorization',
 // };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 
-mongoose.connect("mongodb+srv://higyanaranjanpatra:X2u25J89nT27KUhq@cluster0.o6iabhd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("mongodb+srv://higyanaranjanpatra:X2u25J89nT27KUhq@cluster0.o6iabhd.mongodb.net/todoapp?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
 .then(() => console.log("Mongodb Connected Successfully"))
 .catch(err => console.log(err));
+app.get('/',(req,res)=>{
+  res.send("Hellow")
+})
 
 app.post('/add', (req, res) => {
   const { task, desc } = req.body;

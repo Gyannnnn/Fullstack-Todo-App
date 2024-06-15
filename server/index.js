@@ -48,17 +48,12 @@ app.get('/get', (req, res) => {
 //   .then(result => res.json(result))
 //   .catch(err => res.json(err));
 // })
-const handleDelete = (id) => {
-  axios.delete(`https://todo-app-api-two.vercel.app/delete/${id}`) // Add slash before id
-  .then(result => {
-    console.log(result);
-    setTodos(todos.filter(todo => todo._id !== id)); // Remove the deleted item from state
-  })
-  .catch(err => {
-    console.log(err);
-  })
-}
-
+app.delete("/delete/:id",(req,res)=>{
+  const {id} =req.params;
+  TodoModel.findByIdAndDelete({_id:id})
+  .then(result=>res.json(result))
+  .catch(err=>res.json(err))
+})
 
 app.listen(3000, () => {
   console.log("Server Is Running");

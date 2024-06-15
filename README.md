@@ -38,6 +38,8 @@ The MERN Stack Todo App is a web application designed to help users manage their
 For any inquiries or feedback, feel free to reach out:
 - Email: [hi.gyanaranjanpatra@gmail.com](mailto:hi.gyanaranjanpatra@gmail.com)
 - Instagram: [@gyan.css](https://www.instagram.com/gyan.css?igsh=ZG42Ymc3ZnBxNW92)
+-  linkedIn: [Gyanranjan Patra](https://www.linkedin.com/in/gyanaranjan-patra-0b17a4246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+-  x: []()
 
 ## Conclusion
 The MERN Stack Todo App combines robust backend technologies with a modern and responsive frontend to offer users a powerful tool for organizing their tasks efficiently. Whether for personal use or team collaboration, the app provides a scalable foundation for future feature expansions and enhancements.

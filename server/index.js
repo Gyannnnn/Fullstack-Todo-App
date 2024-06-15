@@ -5,17 +5,17 @@ const app = express();
 const TodoModel = require('./models/todos');
 
 app.use(express.json());
-// app.use(cors({
-//     origin: ["https://mern-stack-todoapp.vercel.app/"],
-//     methods: ["POST", "GET", "DELETE"], 
-//     credentials: true 
-// }));
+app.use(cors({
+    origin: ["https://mern-stack-todoapp.vercel.app"],
+    methods: ["POST", "GET", "DELETE"], 
+    credentials: true 
+}));
 
-const corsOptions = {
-  origin: 'https://mern-stack-todoapp.vercel.app', // Update with your frontend URL
-  methods: 'GET,POST,DELETE',
-  allowedHeaders: 'Content-Type,Authorization',
-};
+// const corsOptions = {
+//   origin: 'https://mern-stack-todoapp.vercel.app', // Update with your frontend URL
+//   methods: 'GET,POST,DELETE',
+//   allowedHeaders: 'Content-Type,Authorization',
+// };
 
 app.use(cors(corsOptions));
 

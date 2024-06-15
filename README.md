@@ -16,17 +16,13 @@ The MERN Stack Todo App is a web application designed to help users manage their
 
 6. **Data Persistence:** Tasks are stored in a MongoDB database, ensuring data persistence and reliability.
 
-7. **RESTful API:** The backend server provides a RESTful API for handling CRUD operations on tasks, ensuring separation of concerns and scalability.
-
-8. **User Experience:** The user interface is intuitive and user-friendly, with minimalistic design principles to enhance productivity and focus.
+7. **User Experience:** The user interface is intuitive and user-friendly, with minimalistic design principles to enhance productivity and focus.
 
 ## Technologies Used
-- **Frontend:** React.js, Redux (optional for state management)
+- **Frontend:** React.js
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JSON Web Tokens (JWT)
-- **Real-time Updates:** WebSocket (e.g., Socket.io)
-- **Styling:** CSS, Bootstrap (optional)
+- **Database:** MongoD
+- **Styling:** Tailwind css 
 
 ## Future Enhancements
 - **Collaboration:** Allow users to share tasks or collaborate on projects.

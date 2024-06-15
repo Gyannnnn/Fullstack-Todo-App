@@ -8,13 +8,13 @@ const Home = () => {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
-    axios.get("https://todo-app-api-two.vercel.app/get/")
+    axios.get("https://todo-app-api-two.vercel.app/get")
       .then(result => setTodos(result.data))
       .catch(err => console.log(err));
   }); 
 
   const handleDelete = (id) => {
-    axios.delete('https://todo-app-api-two.vercel.app/delete/'+id)
+    axios.delete('https://todo-app-api-two.vercel.app/delete'+id)
     .then(result =>{
       console.log(result)
     })

@@ -14,10 +14,10 @@ const Home = () => {
   }); 
 
   const handleDelete = (id) => {
-    axios.delete(`https://todo-app-api-two.vercel.app/delete/${id}`) // Add slash before id
+    axios.delete(`https://todo-app-api-two.vercel.app/delete/${id}`) 
     .then(result => {
       console.log(result);
-      setTodos(todos.filter(todo => todo._id !== id)); // Remove the deleted item from state
+      setTodos(todos.filter(todo => todo._id !== id)); 
     })
     .catch(err => {
       console.log(err);

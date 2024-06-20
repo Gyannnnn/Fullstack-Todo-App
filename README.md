@@ -1,5 +1,5 @@
 # MERN Stack Todo App
-
+## Deployed Link: [Vercel](https://mern-stack-todoapp.vercel.app/)
 ## Overview
 The MERN Stack Todo App is a web application designed to help users manage their tasks effectively. Built using the popular MERN stack (MongoDB, Express.js, React.js, Node.js), this app provides a seamless and responsive user experience for task management.
 
@@ -16,17 +16,13 @@ The MERN Stack Todo App is a web application designed to help users manage their
 
 6. **Data Persistence:** Tasks are stored in a MongoDB database, ensuring data persistence and reliability.
 
-7. **RESTful API:** The backend server provides a RESTful API for handling CRUD operations on tasks, ensuring separation of concerns and scalability.
-
-8. **User Experience:** The user interface is intuitive and user-friendly, with minimalistic design principles to enhance productivity and focus.
+7. **User Experience:** The user interface is intuitive and user-friendly, with minimalistic design principles to enhance productivity and focus.
 
 ## Technologies Used
-- **Frontend:** React.js, Redux (optional for state management)
+- **Frontend:** React.js
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JSON Web Tokens (JWT)
-- **Real-time Updates:** WebSocket (e.g., Socket.io)
-- **Styling:** CSS, Bootstrap (optional)
+- **Database:** MongoD
+- **Styling:** Tailwind css 
 
 ## Future Enhancements
 - **Collaboration:** Allow users to share tasks or collaborate on projects.
@@ -38,6 +34,8 @@ The MERN Stack Todo App is a web application designed to help users manage their
 For any inquiries or feedback, feel free to reach out:
 - Email: [hi.gyanaranjanpatra@gmail.com](mailto:hi.gyanaranjanpatra@gmail.com)
 - Instagram: [@gyan.css](https://www.instagram.com/gyan.css?igsh=ZG42Ymc3ZnBxNW92)
+-  linkedIn: [Gyanranjan Patra](https://www.linkedin.com/in/gyanaranjan-patra-0b17a4246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+-  x: [hi_gyaan](https://x.com/hi_gyaan?t=QjRQWHtjRAuwE4qUKjnmWQ&s=09)
 
 ## Conclusion
 The MERN Stack Todo App combines robust backend technologies with a modern and responsive frontend to offer users a powerful tool for organizing their tasks efficiently. Whether for personal use or team collaboration, the app provides a scalable foundation for future feature expansions and enhancements.
